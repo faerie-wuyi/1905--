@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/denglu.js"  charset="utf-8"></script>
+		<script type="text/javascript" src="js/shouye.js"  charset="utf-8"></script>
+		<script type="text/javascript" src="js/cart.js"  charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<div class="headertop">
+			<div class="headertop-center">
+				<div class="headertop-left">
+					<p>
+						<a class="jia" href="#">E宠首页</a>
+					</p>
+					<p>送至</p>
+					<p>重庆</p>
+					<p>
+						<a class="zhengpin" href="#">E宠就是正品</a>
+					</p>
+					<p>
+						<a href="#">评价</a><span>(***)</span></p>
+				</div>
+
+				<ul class="headertop-right">
+					<li>
+						<a href="#">问题反馈</a>
+					</li>
+					<li>
+						<a href="#">手机版</a>
+					</li>
+					<li>
+						<a href="#">收藏</a>
+					</li>
+					<li id="wode">
+						<a href="#">我的E宠</a>
+						<ul class="wodechong">
+							<li>我的E宠</li>
+							<li>我的订单</li>
+							<li>1111</li>
+						</ul>
+						
+						
+					</li>
+					<li>
+						<a href="#">[购物车]<span>(**)</span></a>
+					</li>
+					<li id="zhuce">
+						[注册]
+					</li>
+					<li id="deng">
+						[登录]
+					</li>
+				</ul>
+			</div>
+		</div>
+<!--顶部小导航-->
+<div class="head">
+			<div class="header">
+				<div class="header-left">
+					<a href="#"></a><img src="../img/epet-logo.png" /></a>
+				</div>
+				<form class="header-center">
+					<div class="btn">
+						<input type="text" class="input"  />
+						<input type="button" class="button" value="搜索" />
+					</div>
+				</form>
+			</div>
+		</div>
+<!--下面是购物车主体-->
+<div class="cart-top-z">
+	<div class="cart-top">
+		<ul>
+			<li><span></span>E宠购物车</li>
+			<li><span></span>国际E宠购物车</li>
+			<li>我的收藏</li>
+			<li>我购买过</li>
+			<li>最近浏览</li>
+		</ul>
+	</div>
+</div>
+<!---->
+
+<div class="dingdan-z">
+	<div class="dingdan">
+		 <input type="checkbox"/>
+		 <div class="dingdan-1">
+		 	<span></span>
+		 	<span>E宠西部中央仓</span>
+		 </div>
+		 
+		 <div class="dingdan-2">
+		 	<span class="baoyou">
+		 		已包邮
+		 	</span>
+		 	<span class="baoyou1">
+		 		订单已包邮
+		 	</span>
+		 </div>
+	</div>
+</div>
+
+
+<div class="cart-cen">
+<!-- <div class="cart-shopping-z">
+	<div class="cart-shopping">
+		<input class="input-1" type="checkbox" />
+		<div class="cart-img"><img src="../img/shipin.png"/></div>
+		<p class="wenzi"><span>[不可空运]</span>多啦小萌 宠物补钙强骨营养膏 120g</p>
+		<div class="shuliang-1">
+			<span>-</span>
+			<input type="text" />
+			<span>+</span>
+		</div>
+		<div class="price-z">
+			<span class="price-z-top">￥238.00</span>
+			<span>￥119.00/件</span>
+		</div>
+		
+		<div class="buttom-z">　
+			<span>[删除]</span>
+			<span>[收藏]</span>
+		</div>
+	</div>
+	
+</div> -->
+
+<!-- <div class="cart-shopping-z">
+	<div class="cart-shopping">
+		<input class="input-1" type="checkbox" />
+		<div class="cart-img"><img src="../img/shipin.png"/></div>
+		<p class="wenzi"><span>[不可空运]</span>多啦小萌 宠物补钙强骨营养膏 120g</p>
+		<div class="shuliang-1">
+			<span>-</span>
+			<input type="text" />
+			<span>+</span>
+		</div>
+		<div class="price-z">
+			<span class="price-z-top">￥238.00</span>
+			<span>￥119.00/件</span>
+		</div>
+		
+		<div class="buttom-z">
+			<span>[删除]</span>
+			<span>[收藏]</span>
+		</div>
+	</div>
+	
+</div> -->
+
+
+<!-- <div class="cart-shopping-z">
+	<div class="cart-shopping">
+		<input class="input-1" type="checkbox" />
+		<div class="cart-img"><img src="../img/shipin.png"/></div>
+		<p class="wenzi"><span>[不可空运]</span>多啦小萌 宠物补钙强骨营养膏 120g</p>
+		<div class="shuliang-1">
+			<span>-</span>
+			<input type="text" />
+			<span>+</span>
+		</div>
+		<div class="price-z">
+			<span class="price-z-top">￥238.00</span>
+			<span>￥119.00/件</span>
+		</div>
+		
+		<div class="buttom-z">
+			<span>[删除]</span>
+			<span>[收藏]</span>
+		</div>
+	</div>
+	
+</div> -->
+</div>
+	
+
+<div class="cart-shopping-bottom">
+	<div class="cart-shopping-center">
+		<input class="input-1" type="checkbox" />
+		<div class="del-span">
+			<span>[ 删除选中商品 ]</span>	
+			<span>[ 收藏选中商品 ]</span>
+		</div>
+		<div class="prices">
+			<span class="price-z-top">总价(不含运费)：</span>
+			<span class="color-red">￥1190</span>
+		</div>
+		
+		<div class="buttom-price">
+			结算
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<!--购物车主体，下面是尾部-->
+<div class="foot">
+			<div class="footer">
+				<ul class="footer1">
+					<li>
+						<a class="xiaoyang" href="#">绝对的正品</a>
+					</li>
+					<li>
+						<a class="xiaoyang1" href="#">全球的好货</a>
+					</li>
+					<li>
+						<a class="xiaoyang2" href="#">自家的仓库</a>
+					</li>
+					<li>
+						<a class="xiaoyang3" href="#">自家的配送</a>
+					</li>
+					<li>
+						<a class="xiaoyang4" href="#">养宠的帮手</a>
+					</li>
+					<li>
+						<a class="xiaoyang5" href="#">小小的成绩</a>
+					</li>
+				</ul>
+				<div class="footer2">
+					<div class="footer2-left">
+						<img src="../img/dog_phone.gif" />
+						<div class="shouhou">
+							<a herf="#">
+								<h2>售后电话：</h2></a>
+							<a herf="#">
+								<p>400-888-9200 <span>(免长途费)</span></p>
+							</a>
+							<a herf="#">
+								<p>023-68851700</p>
+							</a>
+							<p class="fuwu">服务时间：09:00-18：30(周一到周日)</p>
+						</div>
+					</div>
+					<div class="footer2-pay">
+						<a herf="#">
+							<h2>支付方式</h2></a>
+						<a herf="#">
+							<p>货到付款</p>
+						</a>
+						<a herf="#">
+							<p>余额支付</p>
+						</a>
+						<a herf="#">
+							<p>在线支付</p>
+						</a>
+					</div>
+
+					<div class="footer2-pay">
+						<a herf="#">
+							<h2>配送方式</h2></a>
+						<a herf="#">
+							<p>E宠快递</p>
+						</a>
+						<a herf="#">
+							<p>外包物流</p>
+						</a>
+						<a herf="#">
+							<p>物流运输</p>
+						</a>
+						<a herf="#">
+							<p>公司地址</p>
+						</a>
+					</div>
+
+					<div class="footer2-pay">
+						<a herf="#">
+							<h2>购物指南</h2></a>
+						<a herf="#">
+							<p>退换货</p>
+						</a>
+						<a herf="#">
+							<p>常见问题</p>
+						</a>
+						<a herf="#">
+							<p>用户协议</p>
+						</a>
+					</div>
+
+					<div class="footer2-pay">
+						<a herf="#">
+							<h2>关于我们</h2></a>
+						<a herf="#">
+							<p>关于我们</p>
+						</a>
+						<a herf="#">
+							<p>仓储中心</p>
+						</a>
+						<a herf="#">
+							<p>联系我们</p>
+						</a>
+						<a herf="#">
+							<p>应急响应</p>
+						</a>
+					</div>
+
+					<div class="footer2-saoma">
+						<a herf="#">
+							<p>扫描下载App</p>
+						</a>
+						<a herf="#">
+							<p>下单更优惠</p>
+						</a>
+						<a herf="#"><img src="../img/app-code.jpg" /></a>
+					</div>
+
+					<div class="footer2-saoma">
+						<a herf="#">
+							<p>扫描关注E宠</p>
+						</a>
+						<a herf="#">
+							<p>下单更优惠</p>
+						</a>
+						<a herf="#"><img src="../img/app-code.jpg" /></a>
+					</div>
+
+				</div>
+
+				<div class="footer3">
+					<div class="footer3-left">
+						<span>友情链接:</span>
+						<span>
+			<a href="">宠物用品</a>
+			<a href="">北京宠物</a>
+			<a href="">罗汉鱼</a>
+			<a href="">海水鱼加盟</a>
+			<a href="">宠物狗</a>
+			<a href="">宠物用品</a>
+			<a href="">北京宠物</a>
+			<a href="">罗汉鱼</a>
+			<a href="">海水鱼</a>
+			<a href="">宠物狗加盟</a>
+			<a href="">宠物用品</a>
+			<a href="">北京宠物</a>
+			<a href="">罗汉鱼</a>
+			<a href="">海水鱼</a>
+			<a href="">宠物狗</a>	
+		</span>
+					</div>
+					<div class="footer3-right">
+						<span>^</span>
+					</div>
+				</div>
+				<div class="footer4">
+					<a href=""><img src="../img/zhizhao.png" </a>
+						<a href=""><img src="../img/360.png" </a>
+							<a href=""><img src="../img/zhizhao.png" </a>
+								<a href=""><img src="../img/shiming.png" </a>
+									<a href=""><img src="../img/zhizhao.png" </a>
+										<a href=""><img src="../img/chengxin.png" </a>
+											<a href=""><img src="../img/zhizhao.png" </a>
+												<a href=""><img src="../img/chengxin.png" </a>
+													<a href=""><img src="../img/zhizhao.png" </a>
+														<a href=""><img src="../img/zhizhao.png" </a>
+															<a href=""><img src="../img/360.png" </a>
+																<a href=""><img src="../img/zhizhao.png" </a>
+																	<a href=""><img src="../img/zhizhao.png" </a>
+				</div>
+
+				<div class="footer5">
+					<p>
+						<a href="">渝ICP备10002905号-1</a>
+						<a href="">渝ICP备10002905号-3</a>
+						<a href="">营业执照</a>
+						<a href="">兽药经营许可证</a>
+						<a href="">增值电信业务经营许可证：渝B2-20140042 Copyright © 2007-2018 epet.com</a>
+						<a href="">重庆易宠科技有限公司</a>
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+
+
+	</body>
+</html>
